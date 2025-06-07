@@ -1,71 +1,124 @@
 ---
-title: My Super Awesome Tutorial
-date: 1970-01-01
-authors:
-  - name: John Doe
-  - name: Mary Jane
+title: Automated Digital Privacy Window
+date: 06/06/2025
+author:
+  - name: Jason Young
 ---
 
 ![relevant graphic or workshop logo](image/path)
 
 ## Introduction
 
-Write a short section on what the tutorial is aiming to accomplish.
-What is the motivation behind the tutorial?
-What do you want readers to gain from the tutorial?
+This project demonstrates how to use an ESP32 DevBoard to control a digital privacy window (such as an electrochromic or liquid crystal film) using voltage. By toggling a GPIO pin, the ESP32 can switch the window between transparent and opaque states, enabling dynamic control for privacy or solar heat management.
 
 ### Learning Objectives
 
-- Bullet list of skills/concepts to be covered
+Understand Microcontroller Integration:
+Learn how to interface an ESP32 DevBoard with external hardware, specifically electrochromic or liquid crystal privacy window films, to enable electronic control of transparency using GPIO pins.
 
-Any additional notes from the developers can be included here.
+Implement Digital Output Control:
+Develop the ability to program the ESP32 to toggle voltage outputs, switching the privacy window between transparent and opaque states for dynamic privacy or solar heat management.
+
+Design and Test Embedded Systems:
+Gain experience in designing, assembling, and troubleshooting embedded systems that combine hardware (window film, drivers) and software (ESP32 firmware).
+
+Apply Circuit Design Principles:
+Apply knowledge of circuit design, including safe voltage switching and component interfacing, to ensure reliable operation of the privacy window control circuit.
+
+Develop and Debug Firmware:
+Write and debug firmware for the ESP32 using common development environments (e.g., Arduino IDE), focusing on GPIO control and system reliability.
+
+Document and Communicate Engineering Work:
+Practice documenting system architecture, code, and troubleshooting steps, and effectively communicate the design process and outcomes in a technical report.
+
+Reflect on Engineering Challenges:
+Identify and analyze challenges encountered during hardware integration and troubleshooting, and articulate lessons learned for future embedded systems projects.
 
 ### Background Information
 
-Describe your topic here. What does it do? Why do you use it?
-Are there other similar things to use? What are the pros and cons?
-Explain important concepts that are necessary to understand.
-Include (and cite if needed) any visuals that will help the audience understand.
+A digital privacy window uses special films—such as electrochromic or liquid crystal film—that can switch between transparent and opaque states when a voltage is applied. In this project, an ESP32 DevBoard is programmed to control the privacy window by toggling a GPIO (General Purpose Input/Output) pin. When the GPIO pin is set high or low, it changes the voltage applied to the window film, instantly switching its state. This allows users to dynamically manage privacy and sunlight in a room with the push of a button or via automated controls.
 
 ## Getting Started
 
-For any software prerequisites, write a simple excerpt on each
-technology the participant will be expecting to download and install.
-Aim to demystify the technologies being used and explain any design
-decisions that were taken. Walk through the installation processes
-in detail. Be aware of any operating system differences.
-For hardware prerequisites, list all the necessary components that
-the participant will receive. A table showing component names and
-quantities should suffice. Link any reference sheets or guides that
-the participant may need.
-The following are stylistic examples of possible prerequisites,
-customize these for each workshop.
+1. Arduino IDE
+What is it?
+The Arduino Integrated Development Environment (IDE) is a user-friendly platform for writing, compiling, and uploading code to microcontroller boards like the ESP32.
 
-### Required Downloads and Installations
+Why use it?
+It simplifies programming and supports a wide range of boards, including the ESP32. It’s cross-platform and has extensive community support.
 
-List any required downloads and installations here.
-Make sure to include tutorials on how to install them.
-You can either make your own tutorials or include a link to them.
+Installation Steps:
+
+Windows: Download the installer from the Arduino Software page and run it. Follow the on-screen instructions.
+
+macOS: Download the .zip file from the Arduino Software page, extract it, and move the Arduino app to your Applications folder.
+
+Linux: Download the appropriate package from the Arduino Software page. Extract and run the install script in a terminal.
+
 
 ### Required Components
 
-List your required hardware components and the quantities here.
+- 1 Arduino IDe
+- Electrochromic film
+- Smart plug outlet
+- Photodiode sensor
+- Op-amp
+- Resistor
+- Capacitor
 
-| Component Name | Quanitity |
-| -------------- | --------- |
-|                |           |
-|                |           |
 
 ### Required Tools and Equipment
 
-List any tools and equipment you need here.
-(Ex, computer, soldering station, etc.)
+Computer, and soldering station. 
 
-## Part 01: Name
+
 
 ### Introduction
 
-Briefly introduce what  you are teaching in this section.
+In this section, you will learn how to prepare your computer for programming the ESP32 DevBoard. This includes installing the Arduino IDE, adding ESP32 board support, and ensuring your computer can communicate with the ESP32 via USB.
+
+### Objective
+
+Install and configure the Arduino IDE for ESP32 development.
+
+Add the ESP32 Board Support Package to the Arduino IDE.
+
+Verify USB connectivity between your computer and the ESP32 DevBoard.
+
+Understand the basic workflow for uploading code to the ESP32.
+
+### Background Information
+
+
+
+### Components
+
+- List the components needed in this challenge
+
+### Instructional
+
+Teach the contents of this section
+
+## Example
+
+### Introduction
+
+Introduce the example that you are showing here.
+
+### Example
+
+Present the example here. Include visuals to help better understanding
+
+### Analysis
+
+Explain how the example used your tutorial topic. Give in-depth analysis of each part and show your understanding of the tutorial topic
+
+## Additional Resources
+
+### Useful links
+
+List any sources you used, documentation, helpful examples, similar projects etc.
+
 
 ### Objective
 
